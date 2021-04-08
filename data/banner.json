@@ -1,0 +1,42 @@
+{
+	"imgUrl":["img/banner1.jpg","img/banner2.jpg","img/banner3.jpg","img/banner4.jpg","img/banner5.jpg","img/banner6.jpg","img/banner7.jpg","img/banner8.jpg"],
+	"nav":[
+		{
+			"url":"img/nav1-1.png",
+			"p1":"会员福利"
+		},
+		{
+			"url":"img/nav2-2.png",
+			"p1":"领劵中心"
+		},
+		{
+			"url":"img/nav3-3.png",
+			"p1":"驱动下载"
+		},
+		{
+			"url":"img/nav4-4.png",
+			"p1":"小新铺子"
+		},
+		{
+			"url":"img/nav5-5.png",
+			"p1":"拯救者联盟"
+		},
+		{
+			"url":"img/nav6-6.png",
+			"p1":"Think家族"
+		},
+		{
+			"url":"img/nav7-7.png",
+			"p1":"手机馆"
+		},
+		{
+			"url":"img/nav8-8.png",
+			"p1":"智能馆"
+		},
+		{
+			"url":"img/nav9-9.png",
+			"p1":"联想校园"
+		}
+	]
+	
+}

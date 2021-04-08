@@ -1,0 +1,192 @@
+.webpage{
+  width:100%;
+  background:#f5f5f5;
+}
+.seckill{
+  width:1206px;
+  height:430px;
+  padding:30px 0 7px 5px;
+  /*background:#fbd6d6;*/
+  margin:0 auto;
+}
+.box_left{
+  width:191px;
+  height:430px;
+  margin-right:12px;
+  background:url("../img/seckill.png") no-repeat;
+  float:left;
+}
+.box_right{
+  width:1002px;
+  height:430px;
+  float:right;
+  /*background:#dd9963;*/
+}
+.right_box{
+  width:490px;
+  height:208px;
+  margin:7px 9px 7px 2px;
+  float:left;
+  background:#fff;
+  position:relative;
+}
+.right_box img{
+  width:208px;
+  height:208px;
+  float:left;
+}
+.right_box h3{
+  width:240px;
+  height:39px;
+  font-size:16px;
+  font-weight:500;
+  display:inline;
+  float:right;
+  padding-top:44px;
+}
+.bottom_box{
+  width:229px;
+  height:31px;
+  border:1px solid #df2634;
+  position:absolute;
+  left:250px;
+  bottom:35px;
+}
+.picer{
+  width:145px;
+  height:31px;
+  float:left;
+}
+.picer a{
+  font-size:17px;
+  line-height:31px;
+  color:red;
+  float:left;
+}
+.picer span{
+  font-size:13px;
+  float:right;
+  line-height:31px;
+  color:#ccc;
+}
+.liji{
+  width:78px;
+  height:31px;
+  color:#fff;
+  background:#df2634;
+  display:block;
+  float:right;
+  font-size:12px;
+  text-align:center;
+  line-height:31px;
+}
+/*楼层*/
+.index{
+	width:1200px;
+	height:4964px;
+  margin:0 auto;
+}
+.body1{
+	width:1200px;
+	height:583px;
+  margin:0 auto 30px;
+  color: #000;
+}
+.body-top {
+	height:48px;
+}
+.body-top h1 {
+	float: left;
+  height: 48px;
+  line-height: 48px;
+  font-size: 20px;
+  font-weight: normal;
+  width: 240px;
+}	
+.body-top ul {
+	float: right;
+  text-align: right;
+  padding-top: 20px;
+}
+.body-top ul li {
+	float:left;
+	margin-right:20px;
+	font-size:12px;
+}
+.body-conten .c-le{
+	width: 240px;
+  height: 535px;
+  float:left;
+}
+.body-conten .con-r {
+	float: right;
+  width: 960px;
+  border-top: 1px solid #dedede;
+}
+.box {
+	width:239px;
+	height:266px;
+	float:left;
+	border-right:1px solid #dedede;
+	border-bottom:1px solid #dedede;
+	background:#fff;
+}
+.box .p1 {
+	font:12px/16px "das";
+}
+.box img {
+	display:block;
+	margin:12px auto;
+}
+.box .p1 {
+	font-size: 14px;
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+  padding: 0 14px;
+  text-align:center;
+}
+.box .p2 {
+  color: #6f7170;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  padding: 0 12px;
+  text-align:center;
+  font-size:12px;
+}
+.box .p3 {
+	font-size: 14px;
+  color: #e2231a;
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+  text-align:center;
+}
+/*爬楼层*/
+.pa{
+  width:30px;
+  height:328px;
+  position:fixed;
+  left:0;
+  top:100px;
+}
+.pa_nav{
+  width:30px;
+  height:328px;
+  text-align:center;
+}
+.pa_nav :nth-child(1){
+  width:17px;
+  height:17px;
+  padding:2px 0;
+  margin:0 auto;
+}
+.pa_nav li:nth-child(odd){
+  width:30px;
+  height:26px;
+}
+.pa_nav :nth-child(even){
+  width:10px;
+  margin:5px auto;
+}

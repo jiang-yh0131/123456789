@@ -1,0 +1,443 @@
+#Services-list {
+    background: #f5f5f5;
+    height: 83px
+}
+
+#Services-list .ns_w {
+    width: 1200px;
+    margin: 0 auto;
+    height: 83px
+}
+
+#Services-list li {
+    float: left;
+    text-indent: -99999px;
+    height: 0
+}
+
+#footer {
+    background: #fff;
+    color: #000;
+    width: 1200px;
+    margin: 0 auto 20px
+}
+
+#footer a {
+    color: #6f7170;
+    font-size: 12px
+}
+
+#footer a:hover {
+    color: #555
+}
+
+#footer a i {
+    color: #000
+    }
+
+ #footer .ns_p2 {
+    padding-top: 10px;
+    height: 130px
+}
+#footer .ns_p2 .ns_w {
+      padding-bottom: 30px
+}
+#footer .ns_p2 dl {
+    float: left;
+    height: 140px;
+    position: relative;
+    padding-right: 143px
+}
+#footer .ns_p2 dt a {
+    font-size: 14px;
+    color: #000
+}
+#footer .ns_p2 dt {
+    line-height: 30px;
+    position: relative
+}
+
+#footer .ns_p2 dd a {
+    display: block;
+    line-height: 22px;
+    color: #555;
+    font-size: 12px
+}
+#footer .ns_p2 dd #bank_btn {
+    height: 40px
+}
+#footer .ns_p2 dd a:hover {
+    color: #000
+}
+#footer .ns_p2 .ns_bank {
+    position: absolute;
+    top: 101px;
+    left: -60px;
+    width: 110px;
+    padding: 0 30px;
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    z-index: 56;
+    display: none
+}
+#footer .ns_p2 .ns_bank li a {
+    display: block;
+    border-bottom: 1px solid #c4c4c4;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #434343
+}
+#footer .ns_p2 .ns_bank li a:hover {
+    color: #d53127
+}
+#footer .ns_p2 .ns_bank .jt_top {
+    display: inline-block;
+    width: 16px;
+    height: 7px;
+    background: url(icons/jt_top.png);
+    position: absolute;
+    left: 50%;
+    top: -7px;
+    margin-left: -8px
+}
+.ns_p4 {
+    text-align: center
+}
+.ns_p4 .ns_w {
+    padding-top: 25px;
+    position: relative
+}
+.ns_p4 .ns_footer_line {
+    padding: 4px 0;
+    color: #6f7170;
+    font-size: 12px
+}
+.ns_p4 .ns_footer_line span {
+    margin: 0 8px;
+    color: #6f7170
+}
+.ns_p4 .ns_footer_line em {
+    width: 10px;
+    height: 13px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px
+}
+.gj_img,.gq_box {
+    position: absolute;
+    right: 0;
+   z-index: 55
+}
+.ns_p4 .ns_footer_line .icon_addr1 {
+    background-position: -234px -3px
+}
+.ns_p4 .ns_footer_line .icon_addr2 {
+    background-position: -248px -3px
+}
+.gj_img {
+    text-align: right;
+    top: 160px
+}
+.gq_box {
+    display: none;
+    width: 153px;
+    height: 380px;
+    background: #fff;
+    border: 1px solid #858585;
+    bottom: 22px;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+.gq_box ul li {
+    text-align: left;
+    margin: 4px
+}
+.usepng {
+    display: inline-block;
+    background-image: url(/shoppc/c/css/icons/icons_sprit.png);
+    background-repeat: no-repeat
+}
+.foot_rz {
+    width: 112px;
+    height: 41px;
+    background-position: -196px -150px
+}
+.ns_box {
+    background: #f5f5f5;
+    padding-bottom: 20px
+}
+.ns_box a {
+    color: #6f7170;
+    font-size: 12px
+}
+.ns_box a:hover {
+    color: #555
+}
+#b_bit {
+    width: 123px;
+    height: 19px;
+    background: url(/shoppc/c/css/icons/icons_sprit.png) -72px -320px
+}
+.floor_label,.myicon {
+    background-image: url(/shoppc/c/css/icons/icons_sprit.png)
+}
+.floor_item .pro_img img {
+    position: relative;
+    left: 0;
+    top: 0
+}    
+.myicon {
+    display: inline-block;
+    background-repeat: no-repeat
+}
+.fl{
+    float:left
+}
+.fr{
+    float:right
+}
+.all_countries{ 
+    position:absolute; 
+    display:none; 
+    width:184px; 
+    height:210px; 
+    background:#fff; 
+    border:1px solid #858585;
+    bottom:24px; 
+    left:0px; 
+    overflow-y:auto; 
+    overflow-x:hidden; 
+    z-index:55;
+}
+.all_countries ul li{ 
+    text-align:left; 
+    margin:4px;
+}
+#cn_img{
+    width: 186px;
+    height: 24px;
+}
+.select_country{
+    margin:60px 0 10px;
+    font-size:16px;
+    line-height:16px;
+    color:#ccc;
+}
+.footer{
+    background-color: #272727;
+    height:423px;
+    width:100%;
+    color:#ccc;
+}
+.footer *{
+    box-sizing:content-box;
+}
+.footer a {
+    color:#ccc
+}
+.foot_top {
+    width:1200px;
+    margin:auto;
+    padding:44px 0 27px 100px;
+}
+.about_lenovo,.shop_lenovo,.service_lenovo { 
+    width:210px;
+}
+.lenovo_website_group {
+    width:240px;
+}
+.social_platform { 
+    width:230px;
+}
+.foot_top >li > h6 {
+    font-size:16px;
+    line-height: 16px;
+    margin-bottom:18px;
+    color:#ccc
+}
+.foot_top li> a {
+    display: block;
+    font-size:13px;
+    line-height: 13px;
+    margin-bottom:12px;
+}
+.foot_bot { 
+    border-top:1px solid #424141;
+    background:#272727;
+}
+.foot_bot_con { 
+    width:1200px;
+    margin:auto;
+    font-size:12px;
+    line-height: 46px;
+}
+.foot_bot_con a { 
+    font-size:12px;
+    line-height: 46px;
+}
+.foot_bot_left span,.foot_bot_right span { 
+    margin:0 6px;
+}
+.foot_top_title {
+    font-size:16px !important;
+    line-height:16px !important;
+    margin-bottom:18px !important;
+    font-weight:600 !important;
+}
+.countries_version{
+    position:relative
+}
+.darkwchat {
+    width:37px;
+    height:36px;
+    background:url("../img/platform_icons_sprits.png") -8px -190px;
+}
+.lightwchat {
+    display:none;
+    width:37px;
+    height:36px;
+    background:url("../img/platform_icons_sprits.png") -8px -238px; 
+}
+.wchat:hover .darkwchat{
+    display:none;
+}
+.wchat:hover .lightwchat{
+    display:block;
+}
+.darkqqzone { 
+    width:37px;
+    height:36px;
+    background:url("../img/platform_icons_sprits.png") -63px -190px;
+}
+.lightqqzone { 
+    display:none;
+    width:37px;
+    height:36px;
+    background:url("../img/platform_icons_sprits.png") -63px -238px;
+}
+.qqzone:hover .darkqqzone{
+    display:none
+}
+.qqzone:hover .lightqqzone {
+    display:block;
+}
+.darkweibo { 
+    width:37px;
+    height:36px;
+    background:url("../img/platform_icons_sprits.png") -119px -190px;
+}
+.lightweibo { 
+    display:none;
+    width:37px;
+    height:36px;
+    background:url("../img/platform_icons_sprits.png") -119px -238px;
+}
+.weibo:hover .darkweibo {
+    display:none
+}
+.weibo:hover .lightweibo {
+    display:block;
+}
+.dark_tieba { 
+    width:74px;
+    height:22px;
+    background:url("../img/platform_icons_sprits.png") -119px -129px;
+    margin-top:-2px;
+}
+.light_tieba { 
+    display:none;
+    width:74px;
+    height:22px;
+    background:url("../img/platform_icons_sprits.png") -119px -155px;
+    margin-top:-2px;
+}
+.tieba:hover .dark_tieba{
+    display:none;
+}
+.tieba:hover .light_tieba {
+    display:block;
+}
+.tieba {
+    margin-top:-2px;
+}
+.dark_weibo_icon {
+    width:82px;
+    height:20px;
+    background:url("../img/platform_icons_sprits.png") -8px -132px;
+}
+.light_weibo_icon {
+    display: none;
+    width:82px;
+    height:20px;
+    background:url("../img/platform_icons_sprits.png") -8px -158px;
+}
+.weibo_icon:hover .dark_weibo_icon{
+    display:none;
+}
+.weibo_icon:hover .light_weibo_icon {
+    display:block;
+}
+.weibo_icon {
+    margin:0 20px 0 5px;
+}
+.dark_fun_icon {
+    width:37px;
+    height:36px;
+    background:url("../img/platform_icons_sprits.png") -176px -190px;
+}
+.light_fun_icon {
+    display: none;
+    width:37px;
+    height:36px;
+    background:url("../img/platform_icons_sprits.png") -176px -238px;
+}
+.fun_icon:hover .dark_fun_icon{
+    display:none;
+}
+.fun_icon:hover .light_fun_icon {
+    display:block;
+}
+.weibo_text,.fun_text {
+    vertical-align: top;
+    line-height: 24px;
+    font-size:15px;
+}
+.manager_weibo { 
+    margin:6px 30px 6px 5px;
+}
+.social_plat {
+    margin:2px 0 10px;
+}
+.social_plat li {
+    margin:6px 7px 6px 4px;
+}
+.social_plat li a:hover {
+    transform:rotate(360deg);
+}
+.social_plat li a {
+    transition:all 0.3s ;
+}
+.interst_tride { 
+    margin:6px 0;
+}
+.social_plat li a{
+    margin-bottom:0 !important;
+}
+.foot_bot .foot_bot_left span{
+    display:inline-block !important;
+}
+.foot_bot .foot_bot_right span{
+    display:inline-block !important;
+}
+.shop_footer_mid {
+    width:100%;
+    background-color:#fff;
+    padding-bottom:10px;
+}
+.footer .all_countries  li a{
+    color:#000;
+}
+.footer .all_countries li a:hover {
+    color:#e2231a;
+}

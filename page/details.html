@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>details</title>
+	<link rel="stylesheet" href="../css/rest.css" type="text/css" />
+	<style>
+		.page{
+			width:1349px;
+			height:900px;
+			/*background:#dd9988;*/
+		}
+		.header{
+			width:1349px;
+			background:#e0e0e0;
+		}
+		.header_top{
+			width:100%;
+			height:50px;
+			background:#fff;
+		}
+		.logo img{
+			width:50px;
+			height:50px;
+			float:left;
+		} 
+		.header_nav{
+			width:1200px;
+			height:50px;
+			margin:0 auto;
+		}
+		.ul_nav li{
+			width:60px;
+			height:50px;
+			margin-right:10px;
+			float:left;
+			font:15px/50px "微软雅黑";
+			text-align:center;
+			color:#8d8d8d;
+		}
+		.deng{
+			width:120px;
+			height:50px;
+			float:right;
+			line-height:50px;
+		}
+		.deng a{
+			width:29px;
+			height:16px;
+			font:12px/50px "微软雅黑";
+			float:left;
+		}
+		.deng img{
+			width:23px;
+			height:23px;
+			float:right;
+			padding-top:13px;
+			
+		}
+		.header_box{
+			width:1200px;
+			height:70px;
+			margin:0 auto;
+			background:#e0e0e0;
+		}
+		.list_nav{
+			width:850px;
+			height:71px;
+			float:left;
+		}
+		.list_nav li{
+			float:left;
+			width:68px;
+			height:71px;
+			font:17px/71px "微软雅黑";
+			font-weight:bold;
+			margin-right:35px;
+		}
+		input{
+			background:#ccc transparent;
+			width:220px;
+			height:36px;
+			float:right;
+			padding-left:17px;
+			border-radius:20px;
+			margin-top:20px;
+			color:#999;
+			font-size:12px;
+		}
+		nav{
+			width:1349px;
+			height:35px;
+			font:14px/35px "微软雅黑";
+			color:#535353;
+			overflow: hidden;
+			background: #e8e8e8;
+		}
+		.nav_con{
+			width:1200px;
+			height:35px;
+			font:14px/35px "微软雅黑";
+			margin:0 auto;
+		}
+		.nav_con a{
+			height:38px;
+			font:14px/35px "微软雅黑";
+		}
+		.item_content{
+			width:100%;
+		}
+		.index_item{
+			width:1200px;
+			/*height:1607px;*/
+			margin:60px auto 0;
+			padding-bottom:40px;
+			/*background:#dd9988;*/
+		}
+		.item_left{
+			width:618px;
+			height:666px;
+			float:left;
+			/*background:#99ccff;*/
+		}
+		/*发大境*/
+		.box_fa{
+			width:520px;
+			height:520px;
+			position:relative;
+		}
+		.box_fa img{
+			width:520px;
+			height:520px;
+		}
+		.move{
+			width:130px;
+			height:130px;
+			background:url("../img/dd.png");
+			position:absolute;
+			left:0;
+			top:0;
+		}
+		.list{
+			overflow:hidden;
+			margin-top:20px;
+		}
+		.list li{
+			width:84px;
+			height:84px;
+			margin: 0 6px;
+			border:1px solid #ccc;
+			float:left;
+		}
+		.list li img{
+			width:84px;
+			height:84px;
+		}
+		.big_box{
+			width:520px;
+			height:520px;
+			overflow:hidden;
+			position:absolute;
+			right:200px;
+			top:215px;
+			/* display:none; */
+		}
+		.big_box img{
+			width:520px;
+			height:520px;
+			position:absolute;
+			left:0;
+			top:0;
+		}
+		/*放大镜结束*/
+		.item_right{
+			width:580px;
+			height:666px;
+			float:right;
+			/*background:#99ccff;*/
+		}
+		.itre_title h1{
+			width:100%;
+			height:80px;
+			font-size:30px;
+			font-weight:normal
+		}
+		.title_xa{
+			width:100%;
+			height:44px;
+			margin-top:17px;
+			font:14px/22px "微软雅黑";
+			padding-bottom:12px;
+			border-bottom:1px solid #dcdcdc;
+		}
+		.item_img{
+			width:100%;
+			overflow:hidden;
+		}
+		.item_img img{
+			width:1920px;
+			position: relative;
+			left:50%;
+			margin-left:-960px
+		}
+		.item_img img:nth-child(1){
+			height:230px;
+		}
+		.item_img img:nth-child(2){
+			height:300px;
+		}
+		.item_img img:nth-child(3){
+			height:300px;
+		}
+		.item_img img:nth-child(4){
+			height:300px;
+		}
+		.item_img img:nth-child(5){
+			height:290px;
+		}
+		.item_img img:nth-child(6){
+			height:1066px;
+		}
+		.item_img img:nth-child(7){
+			height:888px;
+		}
+		.item_img img:nth-child(8){
+			height:1106px;
+		}
+		.item_img img:nth-child(9){
+			height:864px;
+		}
+		.item_img img:nth-child(10){
+			height:1141px;
+		}
+		.item_img img:nth-child(11){
+			height:1143px;
+		}
+		.item_img img:nth-child(12){
+			height:1213px;
+		}
+		.item_img img:nth-child(13){
+			height:890px;
+		}
+		.item_img img:nth-child(14){
+			height:1115px;
+		}
+		.item_img img:nth-child(15){
+			height:1042px;
+		}
+		.item_img img:nth-child(16){
+			height:1157px;
+		}
+		.item_img img:nth-child(17){
+			height:1045px;
+		}
+		.item_img img:nth-child(18){
+			height:1275px;
+		}
+		.item_img img:nth-child(19){
+			height:1151px;
+		}
+		.item_img img:nth-child(20){
+			height:1549px;
+		}
+		.item_img img:nth-child(21){
+			height:1293px;
+		}
+		.item_img img:nth-child(22){
+			height:1112px;
+		}
+		.item_img img:nth-child(23){
+			height:1129px;
+		}
+		.item_img img:nth-child(24){
+			height:1219px;
+		}
+		.item_img img:nth-child(25){
+			height:1143px;
+		}
+		.item_img img:nth-child(26){
+			height:1175px;
+		}
+		.item_img img:nth-child(27){
+			height:467px;
+		}
+		.item_img img:nth-child(28){
+			height:421px;
+		}
+	</style>
+</head>
+<body>
+	<div class="page">
+	<!-- 头部 -->
+		<div class="header clearfix">
+			<div class="header_top">
+				<div class="logo">
+					<img src="../img/logo.jpg" alt="" />
+				</div>
+				<div class="header_nav">	
+					<ul class="ul_nav">
+						<li><a href="#">联想首页</a></li>
+						<li><a href="#">商城</a></li>
+						<li><a href="#">社区</a></li>
+						<li><a href="#">服务</a></li>
+						<li><a href="#">资讯</a></li>
+						<li><a href="#">门店</a></li>
+						<li><a href="#">手机版</a></li>
+					</ul>
+					<div class="deng">
+						<a href="#">注册|</a>
+						<a href="#">登录</a>
+						<img src="../img/pohto.png" />
+					</div>
+				</div>
+			</div>
+			<div class="header_box">
+					<ul class="list_nav">
+						<li>私人订制</li>
+						<li>极速到家</li>
+						<li>合伙人</li>
+						<li>以旧换新</li>
+						<li>0元试用</li>
+						<li>企业采购</li>
+						<li>兑换中心</li>
+						<li>众筹</li>
+					</ul>
+					<input type="text" placeholder="联想 Z6 Pro 骁龙855 硬核旗舰">
+			</div>
+		</div>
+		<!-- nav -->
+		<nav>
+			<div class="nav_con"><a href="../index.html">首页 </a>&gt; 商品详情 &gt; 拯救者 Y7000 2019高色域 英特尔酷睿i5 15.6英寸游戏笔记本 黑色</div>
+			</nav>
+		<!-- details -->
+		<div class="item_conter">
+			<div class="index_item">
+				<!-- 放大镜 -->
+				<div class="item_left">
+					<div class="box_fa">
+						<img src="../img/item_fa1.jpg" class="pic">
+						<span class="move"></span>
+					</div>
+					<ul class="list">
+						<li><img src="../img/item_fa1.jpg" alt=""></li>
+						<li><img src="../img/item_fa2.jpg" alt=""></li>
+						<li><img src="../img/item_fa3.jpg" alt=""></li>
+						<li><img src="../img/item_fa4.jpg" alt=""></li>
+						<li><img src="../img/item_fa5.jpg" alt=""></li>
+					</ul>
+					<div class="big_box">
+						<img src="../img/item_fa1.jpg" class="datu" />
+					</div>
+				</div>
+				<!-- 放大镜结束 -->
+				<div class="item_right">
+					<div class="itre_title">
+						<h1>拯救者 Y7000 2019高色域 英特尔酷睿i5 15.6英寸游戏笔记本 黑色</h1>
+					</div>
+					<div class="title_xa">九代英特尔酷睿i5-9300H/Windows 10 家庭中文版/15.6英寸/8G/512G SSD/ GeForce GTX 1650 4G独显/黑色</div>
+					<img src="../img/jie.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="item_img">
+			<img src="../img/item1.jpg" alt="" />
+			<img src="../img/item2.jpg" alt="" />
+			<img src="../img/item3.jpg" alt="" />
+			<img src="../img/item4.jpg" alt="" />
+			<img src="../img/item5.jpg" alt="" />
+			<img src="../img/item6.jpg" alt="" />
+			<img src="../img/item7.jpg" alt="" />
+			<img src="../img/item8.jpg" alt="" />
+			<img src="../img/item9.jpg" alt="" />
+			<img src="../img/item10.jpg" alt="" />
+			<img src="../img/item11.jpg" alt="" />
+			<img src="../img/item12.jpg" alt="" />
+			<img src="../img/item13.jpg" alt="" />
+			<img src="../img/item14.jpg" alt="" />
+			<img src="../img/item15.jpg" alt="" />
+			<img src="../img/item16.jpg" alt="" />
+			<img src="../img/item17.jpg" alt="" />
+			<img src="../img/item18.jpg" alt="" />
+			<img src="../img/item19.jpg" alt="" />
+			<img src="../img/item20.jpg" alt="" />
+			<img src="../img/item21.jpg" alt="" />
+			<img src="../img/item22.jpg" alt="" />
+			<img src="../img/item23.jpg" alt="" />
+			<img src="../img/item24.jpg" alt="" />
+			<img src="../img/item25.jpg" alt="" />
+			<img src="../img/item26.jpg" alt="" />
+			<img src="../img/item27.jpg" alt="" />
+			<img src="../img/item28.jpg" alt="" />
+		</div>
+	</div>
+</body>
+	<script src="../js/jquery-3.3.1.js"></script>
+	<script>
+	
+	var ip=location.search.slice(1).split("=")[1];
+	console.log(ip)
+	fd();
+	$.get({
+		url:"../data/1.json",
+		success:function(d){
+			//console.log(d);
+			for (var i=0;i<d.length ;i++ )
+			{
+				var arr=d[i].content;
+				//console.log(arr)
+				for (var j=0;j<arr.length ;j++ )
+				{	
+					if(arr[j].ip==ip){
+						$(".pic").attr("src","../"+arr[j].img)
+						$(".list li:first-child img").attr("src","../"+arr[j].img)
+
+						$(".itre_title>h1").text(arr[j].p1)
+						$(".title_xa").text(arr[j].p2)
+					}	
+				}
+			}
+
+			fd()
+		}
+	})
+
+	function fd(){
+		
+		
+		var item_left=document.querySelector(".item_left")
+		var big=document.querySelector(".big_box");
+		var box=document.querySelector(".box_fa");
+		var move=document.querySelector(".move");
+		var oli=document.querySelectorAll(".list img");
+		var oul=document.querySelectorAll(".list li");
+		var pic=document.querySelector(".pic");
+		var datu=document.querySelector(".datu");
+		// console.log(datu);
+		var index=0;
+		tab();
+		//初始化
+			function tab(){
+				for(var i=0;i<oul.length;i++){
+					oul[i].style.borderColor="#ccc";
+				}
+				oul[index].style.borderColor="#cc0000";
+				pic.src=oli[index].src;
+				datu.src=oli[index].src
+			}
+		//点击改变初始值
+			for(var i=0;i<oul.length;i++){
+				oul[i].xb=i;
+				oul[i].onclick=function(){
+					index=this.xb;
+					tab();
+				}
+			}
+		//放大的倍数
+			var bs=box.clientWidth/move.clientWidth;
+		//图片要放大的倍数
+			datu.style.width=pic.clientWidth*bs+"px";
+			datu.style.height=pic.clientHeight*bs+"px";
+		//拖拽的范围
+			var max_left=box.clientWidth-move.clientWidth;
+			var max_top=box.clientHeight-move.clientHeight;
+		//拖拽
+			big.style.display="none";
+			box.onmouseenter=function(ev){
+				var ev=window.event||ev;
+				ev.preventDefault();
+				move.style.cursor="move";
+				move.style.display="block";
+				big.style.display="block";
+				box.onmousemove=function(ev){
+					var ev=window.event||ev
+					var move_left=ev.pageX-move.clientWidth/2-box.offsetLeft;
+					var move_top=ev.pageY-move.clientHeight/2-box.offsetTop;
+					console.log(move_left,move_top)
+					//限制范围
+					if(move_left<0){
+						move_left=0
+					}else if(move_left>max_left){
+						move_left=max_left
+					}
+					if(move_top<0){
+						move_top=0
+					}else if(move_top>max_top){
+						move_top=max_top
+					}
+					var moveL=move_left*bs
+					var moveT=move_top*bs
+					move.style.left=move_left+"px";
+					move.style.top=move_top+"px";
+					datu.style.left=-moveL+"px";
+					datu.style.top=-moveT+"px"
+
+				}
+				box.onmouseleave=function(){
+					move.style.display="none";
+					big.style.display="none";
+					document.onmousemove=move.onmouseenter=null;
+				}
+			}
+
+	}
+	</script>
+</html>

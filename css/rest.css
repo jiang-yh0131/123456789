@@ -1,0 +1,19 @@
+/*css样式重置  外部应用*/
+body{background:#fff;}
+body,p,h1,h2,h3,h4,h5,h6{margin:0;}
+ul,li,ol,dl,dt,dd{margin:0;padding:0;list-style:none;}
+a{text-decoration:none; color:#000;}
+input,button,textarea{margin:0;padding:0;outline:none; border:none;}
+img{border:0;display:block;}
+i{font-style:normal;}
+em {font-style:normal;}
+/*清浮动*/
+.clearfix：after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*在低版本生效*/
+.clearfix{
+	zoom:1;
+}
